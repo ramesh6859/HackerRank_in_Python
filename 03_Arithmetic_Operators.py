@@ -12,7 +12,9 @@ Expected Output	:	First Line : Display the sum of two numbers
                     Third Line : Display the product of two numbers
 """
 
+import os
 if __name__ == '__main__':
+    os.system("clear")
     print("\n")
     first_number = int(input("Enter the first number: "))
     second_number = int(input("Enter the second number: "))
@@ -21,4 +23,3 @@ if __name__ == '__main__':
     print("Difference = ", first_number - second_number)
     print("Product = ", first_number * second_number)
     print("\n")
-

@@ -10,8 +10,9 @@ Expected Output	:	First Line : Display the square of the numbers
                                  from 0 to the input number
 """
 
-
+import os
 if __name__ == '__main__':
+    os.system("clear")
     print("\n")
     input_number = int(input("Enter the limit: "))
     for i in range(input_number):

@@ -11,8 +11,9 @@ Expected Output	:	First Line : Display the integer division of two numbers
                     Second Line : Display the float division of two numbers
 """
 
-from __future__ import division
+import os
 if __name__ == '__main__':
+    os.system("clear")
     print("\n")
     first_number = int(input("Enter the first number: "))
     second_number = int(input("Enter the second number: "))

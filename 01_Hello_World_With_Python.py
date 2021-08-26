@@ -9,7 +9,9 @@ Expected Input	:
 Expected Output	:	Display Hello, World!
 """
 
+import os
 if __name__ == "__main__":
+    os.system("clear")
     print("\n")
     print("Hello, World!")
     print("\n")

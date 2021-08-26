@@ -15,7 +15,9 @@ Expected Output	:	First Line : If the number is odd, print Weird.
                     Not Weird
 """
 
+import os
 if __name__ == "__main__":
+    os.system("clear")
     print("\n")
     input_number = int(input("Enter the number: "))
     if input_number%2 == 1:
